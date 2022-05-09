@@ -4,3 +4,5 @@
 
 ### To Play:
 Simply run `main.py` to start
+
+Use arrow keys to play
