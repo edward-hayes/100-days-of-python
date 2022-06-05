@@ -1,9 +1,6 @@
 import base64
 import requests
 
-URL = 'http://192.168.86.100:8888/v2/send'
-
-
 class Signal():
     def __init__(self, api_url, from_number) -> None:
         self.url = api_url
