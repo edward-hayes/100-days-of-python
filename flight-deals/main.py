@@ -8,9 +8,11 @@ from flight_search import FlightSearch
 
 load_dotenv()
 ORIGIN_CITY_CODE = "RDU"
-SIGNAL_SERVER_URL = 'http://192.168.86.100:8888/v2/send'
-PATH_TO_CREDS_JSON = "my-first-project-350923-2f50a4e12c6d.json"
+SIGNAL_SERVER_URL = ""
+PATH_TO_CREDS_JSON = ""
 FLIGHT_SEARCH_API = os.getenv("TEQUILA_API_KEY")
+FROM_NUMBER = ""
+TO_NUMBERS = [""]
 
 
 flight_search = FlightSearch(api_key=FLIGHT_SEARCH_API)
@@ -23,7 +25,7 @@ price_sheet = data_manager.get_sheet("price")
 
 notification_manager = Signal(
     api_url= SIGNAL_SERVER_URL,
-    from_number= "+12627079865"
+    from_number= FROM_NUMBER
 )
 
 def add_iata_codes():
@@ -50,7 +52,7 @@ def check_flights():
         )
         if flight is not None and flight['price'] < int(row["Lowest Price"]):
             notification_manager.send_text(
-                recipients=["+12627079865"],
+                recipients= TO_NUMBERS,
                 message = ''.join((f"🤑Low Price Alert! You can fly ", 
                     f"from {flight['origin_city']} ({flight['origin_airport']}) ", 
                     f"to {flight['destination_city']} ({flight['destination_airport']}) ", \
@@ -58,7 +60,7 @@ def check_flights():
                 ))
             )
             notification_manager.send_text(
-                recipients=["+12627079865"],
+                recipients= TO_NUMBERS,
                 message = ''.join((
                     f"✈️Flight Details: \n", \
                     f"Departure: Flight {flight['out_flight_airline']} {flight['out_date']} \n",
