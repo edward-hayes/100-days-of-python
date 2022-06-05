@@ -2,8 +2,6 @@ import gspread
 import pandas as pd
 from oauth2client.service_account import ServiceAccountCredentials
 
-PATH_TO_JSON = "my-first-project-350923-2f50a4e12c6d.json"
-
 class GoogleSheets():
     def __init__(self, path_to_creds_json, spreadsheet_name:str) -> None:
         self.setup(spreadsheet_name, path_to_creds_json)
