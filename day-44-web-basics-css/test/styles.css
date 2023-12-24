@@ -1,0 +1,33 @@
+body {
+    background-color: #635666;
+}
+
+.parent {
+    background-color: #839AA8;
+    padding: 10px;
+    max-width: 440px;
+    margin: auto;
+}
+
+.container {
+    min-height: 200px;
+    min-width: 200px;
+    margin: 10px;
+    display: inline-block;
+}
+
+#box1 {
+    background-color: yellowgreen;
+}
+
+#box2 {
+    background-color: orange;
+}
+
+#box3 {
+    background-color: cyan;
+}
+
+#box4 {
+    background-color: forestgreen;
+}

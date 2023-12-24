@@ -1,0 +1,23 @@
+body {
+    background-color: #635666;
+}
+
+.top-container {
+    background-color: yellowgreen;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    background-color: orange;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.bottom-container {
+    background-color: cyan;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}

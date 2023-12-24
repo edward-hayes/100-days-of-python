@@ -1,0 +1,45 @@
+{% extends 'bootstrap/base.html' %}
+{% block styles %}
+{{super()}}
+<script src="https://kit.fontawesome.com/208ede1d28.js" crossorigin="anonymous"></script>
+{% endblock %}
+{% block title %}Library{% endblock%}
+{%block content%}
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+
+      <h1>My Library</h1>
+
+	  <table class="table">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Title</th>
+          <th scope="col">Author</th>
+          <th scope="col">Rating</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for book in all_books: %}
+        <tr>
+          <th scope="row"><a href="{{ url_for('delete', id=book.id) }}"><i class="fa-regular fa-trash-can"></a></i></th>
+          <td>{{ book.title }}</td>
+          <td>{{ book.author }} </td>
+          <td>{{ book.rating }}/10.0 </td>
+          <td><a href="{{ url_for('edit', id=book.id) }}">Edit rating</a></td>
+        </tr>
+        {% endfor %}
+  	  </table>
+
+
+      <p><a href="{{ url_for('add')}}">Add New Book</a></p>
+
+    </div>
+  </div>
+</div>
+
+    
+
+{%endblock%}

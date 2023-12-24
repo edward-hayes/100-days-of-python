@@ -1,0 +1,47 @@
+body {
+    background-color: #635666;
+}
+
+.parent {
+    background-color: #839AA8;
+    padding: 10px;
+    width: 440px;
+    height: 440px;
+    margin: auto;
+    position: relative;
+}
+
+.container {
+    min-height: 200px;
+    min-width: 200px;
+    margin: 10px;
+}
+
+#box1 {
+    background-color: yellowgreen;
+    position:absolute;
+    left: 10px;
+    top: 10px;
+}
+
+#box2 {
+    background-color: orange;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#box3 {
+    background-color: cyan;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+
+#box4 {
+    background-color: forestgreen;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}

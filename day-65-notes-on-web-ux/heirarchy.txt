@@ -1,0 +1,14 @@
+Can establish heirachy through:
+- Color (most obvious): brighter objects draw the eye
+- Size: bigger items draw the eye
+- Layout: 
+    Line Length
+    wikipedia is bad design. Very uniform and long lines of text
+    Optimal line lenght is 40 to 60 characters per line
+    Alignment:
+    Having everything aligned looks easier on the eyes
+    Key is to reduce the number of alignment points. Even if do nothing else other than alignment the website will look better
+    White Space:
+    More white space looks more expensive
+
+Design for your audience, think about what would appeal to them

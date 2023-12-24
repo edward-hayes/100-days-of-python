@@ -1,0 +1,7 @@
+Be consistent
+
+Use the F-Layout
+
+Or the Z-Layout (famously used in the facebook login page)
+
+Think about device, not everyone uses a desktop anymore

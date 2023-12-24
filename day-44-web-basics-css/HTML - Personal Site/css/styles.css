@@ -1,0 +1,40 @@
+body {
+    background-color: #7D9F7D;
+    background-repeat: repeat;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: #3F3047;
+    border-width: 5px;
+    background-color: #7D9F7D;
+    width: 90%
+
+}
+h1, h3 {
+    color: #293324
+}
+
+h1 {
+    color: #a1b5d8ff;
+    margin-bottom: 0px;
+}
+
+#job-title {
+    margin-top:0px;
+}
+
+.profile-photo {
+    float: left;
+}
+
+.about-me {
+    float: right;
+}
+/*#F3D3BD Cream color 
+https://coolors.co/7d9f7d-293324-a1b5d8-fffcf7-684a52
+--russian-green: #7d9f7dff;
+--pine-tree: #293324ff;
+--wild-blue-yonder: #a1b5d8ff;
+--baby-powder: #fffcf7ff;
+--eggplant: #684a52ff; */

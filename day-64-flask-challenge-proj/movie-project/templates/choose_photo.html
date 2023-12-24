@@ -1,0 +1,32 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block styles %}
+  {{ super() }}
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+{% endblock %}
+
+{% block title %}Add Movie{% endblock %}
+
+{% block content %}
+<div class="content">
+
+    <h1 class="heading">Select Movie</h1>
+    <div class="row choose-movie">
+    <form>
+    {% for result in results:%}
+    <div class="col-lg-4 col-md-4 col-sm-4">
+    <div class="card poster" style="width: 18rem">
+      <img src="https://image.tmdb.org/t/p/w185/{{result['poster_path'] }}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <a href="{{ url_for('review',id=loop.index0) }}" class="btn btn-default">{{result['original_title']}}</a>
+      </div>
+
+    </div>
+    </div>
+    {% endfor %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,29 @@
+- Two main font families (Serif, Sans-Serif)
+
+Serif:
+- have little "feet" at the end of the central beams
+- based on marble fonts
+- more serious, older, authorative
+- good for letterhead
+
+    Subfonts:
+    Old Style
+    Traditional
+    Modern
+
+Sans-Serif
+- No feet, has right angles
+- very readable
+- good for body text
+
+
+Emotion behind fonts:
+SERIF = Traditional, Stable, Respectable
+SANS-SERIF = Sensible, Simple, Straightforward
+SCRIPT = Personal, Creative, Elegant
+DISPLAY = Friendly, Loud, Amusing
+MODERN = Stylish, Chic, Smart
+
+General keep to two fonts on one website. 
+Keep Mood and Time Era same
+Contrast Serif-ness & Weights

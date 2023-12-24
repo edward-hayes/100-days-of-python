@@ -1,0 +1,31 @@
+RED = Love, Energy, Intensity
+YELLOW = Joy, Intellect, Attention
+GREEN = Freshness, Safety, Growth
+BLUE = Stability, Trust, Serenity
+PURPLE = Royalty, Wealth, Feminitity 
+
+
+Analagous Color Palete:
+def: Two colors right next to each other on the color wheel
+- Good for navigation bars
+- Not good for standing out
+- Looks Harmonious
+
+Complementary Color Palete:
+def: Two colors on the opposite side of the color wheel
+- Good for "pop" and brings out each of the colors
+- Bad for text and text background
+- Good for icons, or logos
+
+Traiditic (sp?) Color Palete:
+def: colors in an equalateral triangle
+
+Square Color Palete:
+
+Adobe Color Wheel
+Create color paletes
+https://color.adobe.com/create/color-wheel
+
+Colorhunt.co
+Pre-made color paletes
+https://colorhunt.co/

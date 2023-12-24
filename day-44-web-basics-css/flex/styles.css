@@ -1,0 +1,57 @@
+body {
+    background-color: #635666;
+}
+
+.parent {
+    background-color: #839AA8;
+    max-width: 1100px;
+    margin: 10px auto;
+    position: relative;
+    display: flex;
+}
+
+#outer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding: 10px;
+    
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: flex-end;
+
+}
+
+#link-box {
+    background-color: goldenrod;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+#box1 {
+    background-color: yellowgreen;
+    margin: 10px;
+
+}
+
+#box2 {
+    background-color: orange;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#box3 {
+    background-color: cyan;
+    max-width: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#box4 {
+    background-color: forestgreen;
+}

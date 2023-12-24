@@ -1,0 +1,154 @@
+:root {
+    --main-color: rgb(44, 54, 57, .90);
+    --secondary-color: #3F4E4F;
+    --accent-color: #A27B5C;
+    --text-color: #DCD7C9;
+}
+
+body {
+    background: var(--main-color) url("../images/19742-resize.jpg") repeat fixed;
+    margin: 0;
+    color: var(--text-color);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Monoton', Helvetica, Arial, sans-serif;
+    font-size: 2.8em;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Bebas Neue', Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 5px;
+
+}
+
+h3 {
+    margin-top:0;
+    margin-bottom: 5px;
+}
+
+hr {
+    border-color: var(--accent-color);
+    border-width: 2px 0px;
+    border-style: solid;
+    padding: 0;
+    width: 100px;
+    margin: 5px;
+    height: 5px;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.parent {
+    max-width: 1100px;
+    min-width: 462px;
+    margin: 10px auto;
+    display: flex;
+}
+
+.main-container {
+    background: var(--main-color);
+    border: 1px solid var(--accent-color);
+    padding: 10px;
+
+}
+
+.class {
+    font-style: italic;
+    display: block;
+}
+
+.container {
+    min-height: 100px;
+    min-width: 200px;
+    margin: 10px;
+    border: 1px solid var(--accent-color);
+    padding: 10px;
+    background: var(--secondary-color);
+}
+
+
+.button {
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid var(--accent-color);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--text-color);
+    background-color: var(--main-color);
+    text-align: center;
+    line-height: 25px;
+    height: 25px;
+}
+
+.button:hover {
+    background-color: var(--accent-color);
+}
+
+.about {
+    align-self: stretch;
+}
+
+.history {
+    flex-grow: 1;
+}
+
+.sidebar {
+    width: 380px;
+}
+
+#divider {
+    padding: 0px 10px;
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bottom {
+    column-gap: 20px;
+    max-width: 1120px;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: flex-end;
+    max-width: 658px;
+}
+
+#outer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+#link-box {
+    display: flex;
+    column-gap: 2px;
+    flex-grow: 1;
+}
+
+#symbol-center {
+    color: var(--accent-color);
+    font-size: 1.6em;
+}
+
+/* cream 254,251,234
+charcoal 54, 69, 79  */ 
+/*Helvetica*/
+
+/* option 1 https://colorhunt.co/palette/d3ebcdaedbce839aa8635666 */
+/* option 2 https://colorhunt.co/palette/2c36393f4e4fa27b5cdcd7c9 */
